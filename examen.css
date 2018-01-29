@@ -1,0 +1,190 @@
+body{
+	background-image: url("imagenes/bg.png");
+	font-size: 16px;
+	font-family: Times New Roman;
+}
+
+h1.primero{
+    text-align: center;
+	left: 40px;
+	font-size: 40px;
+}
+
+h3{
+	position:absolute;
+	text-align: center;
+	left: 200px;
+	top: 50px;
+}
+
+img.imagen{
+	top: 110px;
+	left: 15px;
+	right: 15px;
+	width: 100%;
+    height: 340px;
+}
+
+div.dentro{
+    position: absolute;
+    top: 300px;
+	right: 15px;
+    width: 600px;
+    height: 100px;
+	background-color: hsla(0, 0%, 0%, 0.4);
+	color: white;
+	text-align: center;
+}
+	
+.navbar a {
+    padding: 15px 8px;
+    text-decoration: none;
+}
+
+nav li {
+    float: right;
+    overflow: auto;
+    margin: 0 5%;
+} 
+
+nav a {
+    display: block;
+    padding: 5px 2px 2px 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+nav a.colorHome {
+	color:#3c3c3c;
+}
+
+nav a:hover {
+	color: #3c3c3c;
+}
+
+
+
+
+.main{
+    width: 80%;
+    display:inline-block;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	width: 80%;
+    height: auto;
+}
+
+section.articulo{
+	padding-top: 15px;
+	width: 1800px;
+}
+
+img.imagenArticulo{
+	width: 100%;
+}
+
+article.viaje{
+    background-color: white;
+	width: 100%;
+    height: auto;
+}	
+
+a.texto{
+	color:black;
+    text-decoration: initial;
+    font-weight: bold;
+}
+
+a.texto:hover{
+	color: blue;
+    text-decoration: underline;
+}
+
+
+
+div.sidebar {
+    position: absolute;
+    top: 500px;
+    right: 0;
+    width: 250px;
+    height: auto;
+	margin-right: 15px;
+	border: 1px solid hsl(0, 0%, 71%);
+}
+
+h2{
+	text-align: center;
+}
+
+
+.sidebar li a {
+	color: black;
+	background-color: hsl(0, 0%, 94%);
+}
+
+
+div.sidebar a:hover {
+	color: white;
+	background-color: blue;
+}
+
+aside a {
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+aside ul{
+    padding:2%;
+}
+aside li{
+    padding: 5px 5px 5px 5px;
+}
+
+img{
+    width:	15%;
+    height: 15%;
+    float: left;
+}	
+
+
+ 
+
+footer {
+	bottom: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+footer ul, aside ul{
+    margin: 0 auto;
+    overflow: auto;
+    list-style-type: none;	
+}
+
+footer li {
+    float: left;
+    overflow: auto;
+    margin: 0 8%;
+} 
+
+footer a {
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;	
+}
+
+footer a:hover, aside a:hover {
+    background: white;
+    color: blue;
+}
